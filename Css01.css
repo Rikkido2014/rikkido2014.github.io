@@ -1,0 +1,40 @@
+.test{
+    color:red;
+}
+.back{
+    background-color:#d1d1d1;
+}
+.header{
+    font-size:25pt;
+    color:#d79124;
+    font-weight:normal;
+}
+.navbar{
+    border-radius:0;
+}
+.img{
+   text-align:center;
+}
+.content{
+    font-size:25pt;
+    color:#d79124;
+    font-weight:normal;
+}
+.dropdowncontent{
+    text-align:center;
+    color:#55acee;
+}
+.maincontetshead{
+    color:#55acee;
+    
+}
+.nothing{
+    height:128;
+    width:128;
+    background-color:green;
+}
+.span4{
+    display:inline-block;
+    width:22%;
+    margin:1%;
+}

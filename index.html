@@ -2,15 +2,133 @@
 <html lang="ja">
     <head >
         <meta charset="utf-8">
-        <meta http-equiv="X-UA-Cmpatible" conten="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-            <title >Bootstrap 101 Template</title>
-        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet"> 
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <meta neme="author" content="Rikkido">
+        <meta name="keywords" content="portfolio,rikkido">
+        <title>Rikkido's portfolio pages</title>
+        <link rel="stylesheet" href="Css01.css" type="text/Css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+        <!--↑BootSrapのCss読み込み-->
+        <!--↓JQuery読み込み-->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <!--↓BootSrapのJS-->
+        <script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
     </head>
     <body>
-        <h1 >Hello,world</h1>
+        <header class="header,navbar">
+            <nav class="navbar navbar-default">
+                <div class="header">Rikkdo's portfolio</div>
+                
+            </nav>
+        </header>
+        <div class="container-fluid">
+        <div class="row">
+        <div class="col-sm-2">
+            
+            <img class="img" src="http://usericon.nimg.jp/usericon/2259/22592232.jpg?1438737468"></img>
+            <span class="container">
+                <table class="table">
+                    <thead>
+                    <tr>
+                        <th>種別</th>
+                        <th>内容</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">
+                                名前
+                            </th>
+                            <td>りっきど</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">
+                                母語
+                            </th>
+                            <td>日本語</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">
+                                連絡先
+                            </th>
+                            <td>
+                                <div class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" id="button">
+                                    連絡先一覧
+                                    <span class="caret"></span>
+                                </a>
+                                <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                                    <li><a href="http://com.nicovideo.jp/community/co1932034"><div class="dropdowncontent">ニコニココミュニティ</div></a></li>
+                                    <li><a href="https://github.com/Rikkido2014"><div class="dropdowncontent">GitHub</div></a></li>
+                                    <li><div class="dropdowncontent">メール:</div></li>
+                                </ul>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+            </span>
+        </div>
+        <div class="col-sm-8">
+            <span class="container">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th><span class="maincontetshead">作った物一覧</span></th>
+                        </tr>
+                    </thead>
+                </table>
+                
+            
         
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+            <div class="row">
+                <div class="span4 img">
+                    <img src="http://uni.res.nimg.jp/img/user/thumb/blank.jpg"></img>
+                    <p>N/A</p>
+                </div>
+                 <div class="span4 img">
+                    <img src="http://uni.res.nimg.jp/img/user/thumb/blank.jpg"></img>
+                    <p>N/A</p>
+                </div>
+                 <div class="span4 img">
+                    <img src="http://uni.res.nimg.jp/img/user/thumb/blank.jpg"></img>
+                    <p>N/A</p>
+                </div>
+                 <div class="span4 img">
+                    <img src="http://uni.res.nimg.jp/img/user/thumb/blank.jpg"></img>
+                    <p>N/A</p>
+                </div>
+                 
+            </div>
+        
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th><span class="maincontetshead">自己紹介</span></th>
+                    </tr>
+                </thead>
+            </table>
+            <p>りっきど(見習いプログラマー)<br>
+            マインクラフト出身。いろいろなシステムの仕組みやコードを覗きながら学習してます<br>
+            主に進めてる言語はC＃で、これからC/C++やJAVA、Webデザイン系言語等を学習していきたいと思っています<br>
+            今はWeb系言語としてRuby on Railsを学習しています<br>
+            </p>
+        </span>
+        </div>
+        <div class="col-sm-2">
+            
+        </div>
+         <br>
+    </div>
+    </div>
+            
+        
+        
+        
+        
+       
     </body>
     
 </html>
